@@ -8,6 +8,9 @@ body {
 }
 /* index and portfolio both */
 
+.list {
+  list-style: none;
+}
 /* header */
 .header {
 }
