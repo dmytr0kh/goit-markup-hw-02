@@ -51,10 +51,30 @@ body {
 
 /* Index Main */
 
+/* Hero */
+
+/* Benefits  */
+
+.benefits-title {
+  visibility: hidden;
+}
+
+/* Operation */
+
+/* Team */
+
 /* portfolio.html  */
 
 /*  Portfolio Main  */
 
 /* Portfolio Nav buttons */
 
+.nav-buttons-title {
+  visibility: hidden;
+}
+
 /* Portfolio Projects */
+
+.project-title {
+  visibility: hidden;
+}
