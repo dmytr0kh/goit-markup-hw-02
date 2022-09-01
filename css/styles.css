@@ -94,10 +94,11 @@ body {
   text-decoration: none;
 }
 .floor-logo:hover {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 .floor-logo:focus {
-  background-color: #2F303A;
+  background-color: #2f303a;
+}
 
 .floor-location {
   font-style: normal;
