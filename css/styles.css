@@ -6,6 +6,9 @@ body {
   background-color: #ffffff;
   color: #212121;
 }
+:root {
+  --body-color: #ffffff;
+}
 /* index and portfolio both */
 
 .list {
@@ -14,7 +17,7 @@ body {
 
 /* header */
 .site-head {
-  background-color: #ffffff;
+  background-color: var(body-color);
 }
 .site-logo {
   font-family: "Raleway";
@@ -26,10 +29,10 @@ body {
   text-decoration: none;
 }
 .site-logo:hover {
-  background-color: #ffffff;
+  background-color: var(--body-color);
 }
 .site-logo:focus {
-  background-color: #ffffff;
+  background-color: var(--body-color);
 }
 .site-logo-web {
   color: #2196f3;
@@ -80,17 +83,27 @@ body {
 .site-floor {
   background-color: #2f303a;
 }
-.location {
+
+.floor-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
 }
-.location-list {
+.floor-logo:hover {
+  background-color: #2F303A;
 }
-.location-list-item {
-}
+.floor-logo:focus {
+  background-color: #2F303A;
+
 .floor-location {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--body-color);
   text-decoration: none;
 }
 .floor-location:hover {
@@ -141,7 +154,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--body-color);
 }
 .button {
   cursor: pointer;
@@ -149,7 +162,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--body-color);
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -176,7 +189,7 @@ body {
 /* Operation */
 
 .operation {
-  background-color: #ffffff;
+  background-color: var(--body-color);
 }
 
 .operation-title {
@@ -216,13 +229,13 @@ body {
 /*  Portfolio Main  */
 
 .project {
-  background-color: #ffffff;
+  background-color: var(--body-color);
 }
 
 /* Portfolio Nav buttons */
 
 .site-buttons {
-  background-color: #ffffff;
+  background-color: var(--body-color);
 }
 
 .site-buttons-title {
