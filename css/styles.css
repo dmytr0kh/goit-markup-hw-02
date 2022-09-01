@@ -3,13 +3,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   /* width: 1600px; */
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   color: #212121;
 }
 /* index and portfolio both */
-.button {
-  cursor: pointer;
-}
 
 .list {
   list-style: none;
@@ -135,17 +132,83 @@ body {
 /* Index Main */
 
 /* Hero */
-
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 /* Benefits  */
-
+.benefits {
+  background-color: #f5f5f5;
+}
 .benefits-title {
   visibility: hidden;
 }
-
+.benefits-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.benefits-list-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 /* Operation */
 
+.operation-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 /* Team */
 
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-list-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-list-item-text {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 /* portfolio.html  */
 
 /*  Portfolio Main  */
