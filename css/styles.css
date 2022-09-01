@@ -155,9 +155,7 @@ body {
   border-radius: 4px;
 }
 /* Benefits  */
-.benefits {
-  background-color: #f5f5f5;
-}
+
 .benefits-title {
   visibility: hidden;
 }
@@ -176,6 +174,10 @@ body {
   color: #757575;
 }
 /* Operation */
+
+.operation {
+  background-color: #f5f5f5;
+}
 
 .operation-title {
   font-weight: 700;
@@ -218,9 +220,46 @@ body {
 .site-buttons-title {
   visibility: hidden;
 }
-
+.button-portfolio {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border: #f5f4fa;
+}
+.button-portfolio:hover {
+  color: #212121;
+  background-color: #f5f4fa;
+  border: #f5f4fa;
+  border-radius: 4px;
+}
+.button-portfolio:focus {
+  color: #212121;
+  background-color: #2196f3;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 /* Portfolio Projects */
 
 .project-title {
   visibility: hidden;
+}
+
+.project-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-list-item-text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
