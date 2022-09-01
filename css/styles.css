@@ -7,7 +7,12 @@ body {
   color: #212121;
 }
 :root {
-  --body-color: #ffffff;
+  --main-page-color: #ffffff;
+  --secondary-page-color: #2f303a;
+  --third-main-color: #f5f4fa;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --blue-color: #2196f3;
 }
 /* index and portfolio both */
 
@@ -17,7 +22,7 @@ body {
 
 /* header */
 .site-head {
-  background-color: var(body-color);
+  background-color: var(--main-page-color);
 }
 .site-logo {
   font-family: "Raleway";
@@ -25,63 +30,63 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 .site-logo:hover {
-  background-color: var(--body-color);
+  background-color: var(--main-page-color);
 }
 .site-logo:focus {
-  background-color: var(--body-color);
+  background-color: var(--main-page-color);
 }
 .site-logo-web {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .site-list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 .site-list-item:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .site-list-item:focus {
-  color: #000000;
+  color: var(--main-text-color);
 }
 .head-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 .head-mail:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .head-mail :focus {
-  color: #000000;
+  color: var(--main-text-color);
 }
 .head-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 .head-phone:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .head-phone:focus {
-  color: #000000;
+  color: var(--main-text-color);
 }
 /* footer */
 .site-floor {
-  background-color: #2f303a;
+  background-color: var(--secondary-page-color);
 }
 
 .floor-logo {
@@ -90,56 +95,56 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 .floor-logo:hover {
-  background-color: #2f303a;
+  background-color: var(--secondary-page-color);
 }
 .floor-logo:focus {
-  background-color: #2f303a;
+  background-color: var(--secondary-page-color);
 }
 
 .floor-location {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--body-color);
+  color: var(--main-page-color);
   text-decoration: none;
 }
 .floor-location:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .floor-location:focus {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .floor-mail {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 .floor-mail:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .floor-mail:focus {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .floor-phone {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 .floor-phone:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .floor-phone:focus {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /* index.html  */
 
@@ -147,7 +152,7 @@ body {
 
 /* Hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-page-color);
 }
 .hero-title {
   font-weight: 900;
@@ -155,7 +160,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--body-color);
+  color: var(--main-page-color);
 }
 .button {
   cursor: pointer;
@@ -163,8 +168,8 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: var(--body-color);
-  background-color: #2196f3;
+  color: var(--main-page-color);
+  background-color: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -179,18 +184,18 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .benefits-list-text {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /* Operation */
 
 .operation {
-  background-color: var(--body-color);
+  background-color: var(--main-page-color);
 }
 
 .operation-title {
@@ -198,45 +203,45 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 /* Team */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--third-main-color);
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .team-list-item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .team-list-item-text {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /* portfolio.html  */
 
 /*  Portfolio Main  */
 
 .project {
-  background-color: var(--body-color);
+  background-color: var(--main-page-color);
 }
 
 /* Portfolio Nav buttons */
 
 .site-buttons {
-  background-color: var(--body-color);
+  background-color: var(--main-page-color);
 }
 
 .site-buttons-title {
@@ -248,21 +253,20 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #f5f4fa;
-  border: #f5f4fa;
+  color: var(--main-text-color);
+  background-color: var(--third-main-color);
+  border: var(--third-main-color);
 }
 .button-portfolio:hover {
-  color: #212121;
-  background-color: #f5f4fa;
-  border: #f5f4fa;
+  color: var(--main-text-color);
+  background-color: var(--third-main-color);
+  border: var(--third-main-color);
   border-radius: 4px;
 }
 .button-portfolio:focus {
-  color: #212121;
-  background-color: #2196f3;
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--main-text-color);
+  background-color: var(--blue-color);
+  border: 1px solid var(--main-text-color);
   border-radius: 4px;
 }
 /* Portfolio Projects */
@@ -276,12 +280,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .project-list-item-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
