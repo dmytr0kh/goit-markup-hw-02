@@ -11,40 +11,41 @@ body {
 .list {
   list-style: none;
 }
+
 /* header */
-.header {
+.site-head {
 }
-.nav {
+.site-map {
 }
-.nav-logo {
+.site-logo {
 }
-.nav-logo-web {
+.site-logo-web {
 }
-.nav-list {
+.site-list {
 }
-.nav-list-item {
+.site-list-item {
 }
-.header-contacts {
+.head-contacts {
 }
-.header-mail {
+.head-mail {
 }
-.header-phone {
+.head-phone {
 }
 
 /* footer */
-.footer {
+.floor {
 }
-.adress {
+.location {
 }
-.address-list {
+.location-list {
 }
-.address-list-item {
+.location-list-item {
 }
-.footer-address {
+.floor-address {
 }
-.footer-mail {
+.floor-mail {
 }
-.footer-phone {
+.floor-phone {
 }
 
 /* index.html  */
@@ -69,7 +70,7 @@ body {
 
 /* Portfolio Nav buttons */
 
-.nav-buttons-title {
+.site-buttons-title {
   visibility: hidden;
 }
 
