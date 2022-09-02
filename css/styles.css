@@ -1,35 +1,33 @@
-/* body */
-body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  /* width: 1600px; */
-  background-color: #ffffff;
-  color: #212121;
-}
 :root {
   --main-page-color: #ffffff;
   --secondary-page-color: #2f303a;
-  --third-main-color: #f5f4fa;
+  --third-page-color: #f5f4fa;
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --blue-color: #2196f3;
 }
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  /* width: 1600px; */
+  background-color: var(--main-page-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
 /* index and portfolio both */
-
 .list {
   list-style: none;
 }
-
 /* header */
 .site-head {
   background-color: var(--main-page-color);
 }
 .site-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
   text-decoration: none;
 }
@@ -44,7 +42,6 @@ body {
 }
 .site-list-item {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
@@ -56,9 +53,11 @@ body {
 .site-list-item:focus {
   color: var(--main-text-color);
 }
+.link-current {
+  color: var(--blue-color);
+}
 .head-mail {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -72,7 +71,6 @@ body {
 }
 .head-phone {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -88,13 +86,11 @@ body {
 .site-floor {
   background-color: var(--secondary-page-color);
 }
-
 .floor-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
   text-decoration: none;
 }
@@ -104,10 +100,8 @@ body {
 .floor-logo:focus {
   background-color: var(--secondary-page-color);
 }
-
 .floor-location {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--main-page-color);
   text-decoration: none;
@@ -120,9 +114,7 @@ body {
 }
 .floor-mail {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   text-decoration: none;
 }
@@ -134,9 +126,7 @@ body {
 }
 .floor-phone {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   text-decoration: none;
 }
@@ -147,9 +137,7 @@ body {
   color: var(--secondary-text-color);
 }
 /* index.html  */
-
 /* Index Main */
-
 /* Hero */
 .hero {
   background-color: var(--secondary-page-color);
@@ -164,117 +152,113 @@ body {
 }
 .button {
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  color: var(--main-text-color);
+  background-color: var(--third-page-color);
+  border-radius: 1px solid var(--third-page-color);
+  border: var(--third-page-color);
+  border-radius: 4px;
+}
+.button:hover {
   color: var(--main-page-color);
   background-color: var(--blue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--blue-color);
+  border-radius: 4px;
+}
+.button:focus {
+  color: var(--main-text-color);
+  background-color: var(--main-page-color);
+  border: var(--third-page-color);
+  border: 1px solid var(--third-page-color);
   border-radius: 4px;
 }
 /* Benefits  */
-
 .benefits-title {
   visibility: hidden;
 }
 .benefits-list-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
 }
 .benefits-list-text {
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /* Operation */
-
 .operation {
   background-color: var(--main-page-color);
 }
-
 .operation-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 /* Team */
-
 .team {
-  background-color: var(--third-main-color);
+  background-color: var(--third-page-color);
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .team-list-item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .team-list-item-text {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /* portfolio.html  */
-
 /*  Portfolio Main  */
-
 .project {
   background-color: var(--main-page-color);
 }
-
-/* Portfolio Nav buttons */
-
-.site-buttons {
-  background-color: var(--main-page-color);
-}
-
-.site-buttons-title {
+/* Projects */
+.projects-title {
   visibility: hidden;
 }
-.button-portfolio {
+.projects-buttons {
+  background-color: var(--main-page-color);
+}
+.project-btn {
   cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
-  background-color: var(--third-main-color);
-  border: var(--third-main-color);
+  background-color: var(--third-page-color);
+  border: var(--third-page-color);
 }
-.button-portfolio:hover {
+.project-btn:hover {
   color: var(--main-text-color);
-  background-color: var(--third-main-color);
-  border: var(--third-main-color);
+  background-color: var(--main-page-color);
+  border: var(--third-page-color);
+  border: 1px solid var(--third-page-color);
   border-radius: 4px;
 }
-.button-portfolio:focus {
-  color: var(--main-text-color);
+.project-btn:focus {
+  color: var(--main-page-color);
   background-color: var(--blue-color);
-  border: 1px solid var(--main-text-color);
+  border: 1px solid var(--blue-color);
   border-radius: 4px;
 }
-/* Portfolio Projects */
-
-.project-title {
+.projects-title {
   visibility: hidden;
 }
-
 .project-list-item-title {
   font-weight: 700;
   font-size: 18px;
@@ -282,10 +266,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
-
 .project-list-item-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
