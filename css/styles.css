@@ -91,7 +91,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--main-text-color);
+  color: var(--main-page-color);
   text-decoration: none;
 }
 .floor-logo:hover {
